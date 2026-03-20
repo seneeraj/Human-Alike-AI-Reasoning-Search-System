@@ -2,8 +2,8 @@ import streamlit as st
 import re
 import uuid
 
-from modules.ingest import ingest_data
-from modules.retrieve import retrieve
+#from modules.ingest import ingest_data
+#from modules.retrieve import retrieve
 from modules.generate import generate_answer, generate_summary
 from modules.pdf_loader import extract_text_from_pdf
 
